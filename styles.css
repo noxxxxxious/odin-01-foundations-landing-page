@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+.light-background    { background: #FFFFFF; }
+.cream-background   { background: #e5e7eb; }
+.blue-background    { background: #3882f6; }
+.extrabold-text     { font-weight: 900; }
+.extralarge-text    { font-size: 48px; }
+.italic-text        { font-style: italic; }
+.large-text         { font-size: 36px; }
+.white-text         { color: #f9faf8; }
+.cream-text         { color: #e5e7eb; }
+.black-text         { color: #000000; }
+.section-ypadder    { padding: 50px 0px; }
+.section-xpadder    { padding: 0px 50px; }
+.section-padder     { padding: 50px; }
+.display-flex       { display: flex; }
+.flex-column        { flex-direction: column; }
+.rounded-corners    { border-radius: 10px; }
+.center-text        { text-align: center; }
+.right-text         { text-align: right; }
+.gap10              { gap: 10px; }
+.gap25              { gap: 25px; }
+
+.xycenter {
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    font-size: 18px;
+}
+
+a, button {
+    all: unset;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2 { 
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+#welcome {
+    padding: 100px 0px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-items: center;
+}
+
+.header-wrapper ul {
+    display: flex;
+    gap: 25px;
+}
+
+.cards-container {
+    margin: 25px;
+    justify-content: space-between;
+}
+
+.card {
+    gap: 10px;
+    width: 200px;
+    flex-grow: 0;
+}
+
+.card__frame {
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+}
+
+.quote__author {
+    font-size: 28px;
+}
+
+.calltoaction {
+    justify-content: space-between;
+}
+
+.calltoaction_button {
+    border: solid #FFFFFF 3px;
+}
